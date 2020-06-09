@@ -1,0 +1,35 @@
+/* Varivael de cores */
+:root { 
+    --title-color:#322153;
+    --primary-color: #34cb79;
+}
+
+/* Tira a margem e preenchimento dos elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define a fonte da pagina inteira */
+html{
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Corpo com fundo branco e efeito de texto */
+body{
+    background-color: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* links sem a decoração de acesso */
+a {
+    text-decoration: none;
+}
+
+/* Titulos com a fonte Ubuntu */
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
